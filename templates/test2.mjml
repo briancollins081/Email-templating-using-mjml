@@ -1,32 +1,88 @@
 <mjml>
-    <<mj-body>
-        <!-- Company Header -->
-        <<mj-section background-color="#f0f0f0">
-            <<mj-column>
-                <mj-text font-style="italic" font-size="20px" color="#626262">
-                    My Company 88
-                </mj-text>
-            </mj-column>
-        </mj-section>
-        <!-- Image Header -->
-        <<mj-section background-color="#f0f0f0">
-            
-        </mj-section>
-        <!-- Introduction Text -->
-        <<mj-section background-color="#fafafa">
-            
-        </mj-section>
-        <!-- 2 columns section -->
-        <<mj-section background-color="#ffffff">
-            
-        </mj-section>
-        <!-- Icons -->
-        <<mj-section background-color="#fbfbfb">
-            
-        </mj-section>
-         <!-- Social Icons -->
-        <<mj-section background-color="#fbfbfb">
-            
-        </mj-section>
-    </mj-body>
+  <mj-body>
+    <!-- Company Header -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column width="600px">
+        <mj-text font-weight="900" font-size="20px" color="#626262">
+          My Company
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Image Header -->
+    <mj-section background-url="./computer_desk.jpg" background-size="cover" background-repeat="no-repeat">
+      <mj-column width="600px">
+        <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">
+          Slogan here
+        </mj-text>
+        <mj-button background-color="#f63a5d" color="#fff" href="#">
+          Promotion
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa">
+      <mj-column width="500px">
+        <mj-text font-weight="700" font-size="20px" font-family="Helvetica Neue" color="#f63a5d">
+          Lorem ipsum dor et lit
+        </mj-text>
+        <mj-text color="#525252">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus
+        </mj-text>
+
+        <mj-button background-color="#f63a5d" href="#">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- 2 columns section -->
+    <mj-section background-color="#ffffff">
+      <!-- left image -->
+      <mj-column>
+        <mj-image src="./image2.jpg" width="200px" alt="" />
+      </mj-column>
+      <mj-column>
+        <mj-text font-weight="700" font-size="20px" font-family="Helvetica Neue" color="#f63a5d">
+          Find Amazing Templates Here
+        </mj-text>
+        <mj-text color="#525252">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Icons 3 columns -->
+    <mj-section background-color="#fbfbfb">
+      <mj-column>
+        <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0l.png" />
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x01.png" />
+      </mj-column>
+      <mj-column>
+        <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0s.png" />
+      </mj-column>
+    </mj-section>
+    <!-- Social Icons -->
+    <mj-section background-color="#fbfbfb">
+        <mj-column border-right="2px solid #525252">
+            <mj-social>
+                <mj-social-element name="facebook"/>
+            </mj-social>
+        </mj-column>
+        <mj-column border-right="2px solid #525252">
+            <mj-social>
+                <mj-social-element name="twitter"/>
+            </mj-social>
+        </mj-column>
+        <mj-column border-right="2px solid #525252">
+            <mj-social>
+                <mj-social-element name="linkedin"/>
+            </mj-social>
+        </mj-column>
+        <mj-column>
+            <mj-social>
+                <mj-social-element name="youtube"/>
+            </mj-social>
+        </mj-column>
+    </mj-section>
+  </mj-body>
 </mjml>
