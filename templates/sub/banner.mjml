@@ -1,0 +1,7 @@
+<mj-section background-url="./computer_desk.jpg" background-size="cover" background-repeat="no-repeat">
+  <mj-column width="600px">
+    <mj-text height="200px">
+       
+    </mj-text>
+  </mj-column>
+</mj-section>

@@ -1,4 +1,5 @@
 <mjml>
+<mj-include path="./sub/head.mjml" />
   <mj-body>
     <!-- Company Header -->
     <mj-section background-color="#f0f0f0">
@@ -11,10 +12,10 @@
     <!-- Image Header -->
     <mj-section background-url="./computer_desk.jpg" background-size="cover" background-repeat="no-repeat">
       <mj-column width="600px">
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">
+        <mj-text align="center" color="#fff" font-size="40px">
           Slogan here
         </mj-text>
-        <mj-button background-color="#f63a5d" color="#fff" href="#">
+        <mj-button mj-class="btn_twaagold"  href="#">
           Promotion
         </mj-button>
       </mj-column>
@@ -22,7 +23,7 @@
     <!-- Introduction Text -->
     <mj-section background-color="#fafafa">
       <mj-column width="500px">
-        <mj-text font-weight="700" font-size="20px" font-family="Helvetica Neue" color="#f63a5d">
+        <mj-text font-weight="700" font-size="20px" color="#f63a5d">
           Lorem ipsum dor et lit
         </mj-text>
         <mj-text color="#525252">
@@ -41,7 +42,7 @@
         <mj-image src="./image2.jpg" width="200px" alt="" />
       </mj-column>
       <mj-column>
-        <mj-text font-weight="700" font-size="20px" font-family="Helvetica Neue" color="#f63a5d">
+        <mj-text font-weight="700" font-size="20px" color="#f63a5d">
           Find Amazing Templates Here
         </mj-text>
         <mj-text color="#525252">
