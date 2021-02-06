@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "lerna bootstrap",
-    "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
+    "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
+    "custom-build": "npx mjml -w templates/*.mjml -o templates"
   },
   "workspaces": [
     "packages/*"
