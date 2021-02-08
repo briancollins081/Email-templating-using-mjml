@@ -8,27 +8,32 @@
       <mj-column width="600px">
         <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="justify">
-          Greetings, <%= target_name %>
+          Greetings,
+          <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="justify">
-          You have just added your <b>first book</b> on TWAA
+          Thank you for joining TWAA
+
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          Thank you for your efforts in empowering fellow women through knowledge sharing
+          We have noticed that you are yet to complete your profile.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          Engage with us even more by selling products on the tstore, creating a profile as a speaker, noting down your goals and even starting discussions on forums
+          Please complete your profile. This will enable you to qualify to be a mentor as well as have access to content that has been specifically chosen to meet your interests.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          We are thrilled to have you onboard as one of our powerful forces on our journey to propel women to greatness.
+          TWAA, is a Professional Networking and Mentorship Platform for Women globally that provides the ultimate private setting for connecting and networking for personal, professional and community development.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          Thank you for being a part of TWAA.
+          Network with more women by sharing your products and or services on our tstore, checking out the TWAA books, creating a profile as a speaker, noting down your goals and even starting discussions on forums
         </mj-text>
-        <mj-spacer height="40px" />
+        <mj-text mj-class="body_text" align="justify">
+          Warm Regards, The TWAA team
+        </mj-text>
+        <mj-spacer height="10px" />
         <mj-button href="#" mj-class="btn_twaagold" align="center">
-          Login to TWAA
+          View Notifications
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>

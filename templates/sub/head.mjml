@@ -7,5 +7,13 @@
     <mj-class name="text_twaagold" color="rgb(215, 161, 15)" />
     <mj-class name="title_text" font-size="24px" font-weight="800" color="#0d0d0d" />
     <mj-class name="body_text" font-size="18px" font-weight="400" color="#404040" line-height="30px" />
+    <mj-class name="width_25" width="25% !impo" />
   </mj-attributes>
+  <mj-style>
+    media all and (max-width: 480px) {
+      *[class~=hide_on_mobile] {
+        display: none !important;
+      }
+    }
+  </mj-style>
 </mj-head>

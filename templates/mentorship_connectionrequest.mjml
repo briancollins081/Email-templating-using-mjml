@@ -6,20 +6,25 @@
     <mj-include path="./sub/banner.mjml" />
     <mj-section>
       <mj-column width="600px">
-       <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="center">
-          Hello, username,
+        <mj-spacer height="20px" />
+        <mj-text mj-class="title_text" align="justify">
+          Greetings <%= target_name %>
         </mj-text>
-         <mj-spacer height="10px" />
+        <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="justify">
-          You have requested to reset your TWAA account password.
+         <%= mentee_name %> has requested for a mentorship connection.
+
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          To do so, click on the link below. You will be provided with a password reset form.
+To accept the connection log in to your TWAA account, review your mentee and embark on a journey to increasing the horizons of your legacy!
         </mj-text>
-        <mj-spacer height="40px" />
+        
+        <mj-text mj-class="body_text" align="justify">
+          Warm Regards, The TWAA team.
+        </mj-text>
+        <mj-spacer height="10px" />
         <mj-button href="#" mj-class="btn_twaagold" align="center">
-          Reset Password
+          View Connections
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>

@@ -8,25 +8,29 @@
       <mj-column width="600px">
         <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="justify">
-          Greetings, <%= target_name %>
+          Greetings,
+          <%= target_name %>,
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="justify">
-          You have just added your <b>first book</b> on TWAA
+          Welcome to TWAA
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          Thank you for your efforts in empowering fellow women through knowledge sharing
+          Thank you for joining the force of powerful women that we are. One of our cardinal drivers is Mentorship
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          Engage with us even more by selling products on the tstore, creating a profile as a speaker, noting down your goals and even starting discussions on forums
+          We see that you are interested in accessing mentors and we would like to ensure that you have access to a variety of established women as your mentors
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          We are thrilled to have you onboard as one of our powerful forces on our journey to propel women to greatness.
+          To do this, kindly complete your profile and open yourself up to a myriad of networks and possibilities
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          Thank you for being a part of TWAA.
+          We are looking forward to having you on our TWAA
         </mj-text>
-        <mj-spacer height="40px" />
+        <mj-text mj-class="body_text" align="justify">
+          Warm Regards, The TWAA team
+        </mj-text>
+        <mj-spacer height="10px" />
         <mj-button href="#" mj-class="btn_twaagold" align="center">
           Login to TWAA
         </mj-button>

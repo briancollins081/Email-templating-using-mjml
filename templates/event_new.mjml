@@ -7,7 +7,7 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="center">
+        <mj-text mj-class="title_text" align="justify">
           Greetings, <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
