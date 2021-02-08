@@ -1,0 +1,39 @@
+<mjml>
+  <mj-include path="./sub/head.mjml" />
+  <mj-body>
+    <mj-include path="./sub/header.mjml" />
+    <mj-spacer height="20px" />
+    <mj-include path="./sub/banner.mjml" />
+    <mj-section>
+      <mj-column width="600px">
+        <mj-spacer height="20px" />
+        <mj-text mj-class="title_text" align="justify">
+          Greetings,
+          <%= target_name %>,
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="body_text" align="justify">
+          You have just added your <b>first Tstore service!</b>
+        </mj-text>
+        <mj-text mj-class="body_text" align="justify">
+          Now women using TWAA from everywhere will be able to see your products/services and interact with you.
+        </mj-text>
+        <mj-text mj-class="body_text" align="justify">
+          Remember you can also create a group and invite your friends and team mates and build a community of empowered and motivated women.
+        </mj-text>
+        <mj-text mj-class="body_text" align="justify">
+          TWAA groups have so many tools to help foster collaboration. You can create group events, group goals, group notes and have your own group webinars without leaving the platform.
+        </mj-text>
+        <mj-text mj-class="body_text" align="justify">
+         Keep Sharing.
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-button href="#" mj-class="btn_twaagold" align="center">
+         View Services
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-include path="./sub/footer.mjml" />
+  </mj-body>
+</mjml>

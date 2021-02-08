@@ -1,0 +1,26 @@
+<mjml>
+  <mj-include path="./sub/head.mjml" />
+  <mj-body>
+    <mj-include path="./sub/header.mjml" />
+    <mj-spacer height="20px" />
+    <mj-include path="./sub/banner.mjml" />
+    <mj-section>
+      <mj-column width="600px">
+        <mj-spacer height="20px" />
+        <mj-text mj-class="title_text" align="justify">
+          Greetings, <%= target_name %>,
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="body_text" align="justify">
+          We hope that <%= issue_title %> has been resolved. Let us know in case you encounter any other issue, we are here to support you in the best way we can.
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-button href="#" mj-class="btn_twaagold" align="center">
+          Login to TWAA
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-include path="./sub/footer.mjml" />
+  </mj-body>
+</mjml>
