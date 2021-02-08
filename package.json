@@ -9,7 +9,7 @@
     "lint:fix": "eslint . --fix",
     "postinstall": "lerna bootstrap",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
-    "custom-build": "npx mjml -w templates/*.mjml -o templates"
+    "custom-build": "mjml -w templates/*.mjml -o templates"
   },
   "workspaces": [
     "packages/*"
@@ -28,6 +28,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.21.1",
     "lerna": "^3.22.1",
+    "mjml": "^4.8.1",
     "open": "^7.3.0",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2"

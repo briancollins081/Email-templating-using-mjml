@@ -6,23 +6,29 @@
     <mj-include path="./sub/banner.mjml" />
     <mj-section>
       <mj-column width="600px">
-       <mj-spacer height="20px" />
+        <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="center">
-          Hello, username,
+          Greetings,
+          <%= target_name %>
         </mj-text>
-         <mj-spacer height="10px" />
+        <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="justify">
-          Thank you for signing up on TWAA.
+          A new event titled
+          <%= event_title %> has been posted in the
+          <%= event_target_group %> group.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          To finish setting up your TWAA account, we just need to make sure this email address is yours.
+          Login and connect with other empowered women.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          To verify your email address, click on the link below then login into your account.
+          When in TWAA check out the Tstore and share your own products and services for others to find you or explore from others.
         </mj-text>
-        <mj-spacer height="40px" />
+        <mj-text mj-class="body_text" align="justify">
+          Keep Sharing!
+        </mj-text>
+        <mj-spacer height="10px" />
         <mj-button href="#" mj-class="btn_twaagold" align="center">
-          Verify Your Email
+          View Group Event
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>

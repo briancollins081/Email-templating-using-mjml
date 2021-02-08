@@ -6,23 +6,23 @@
     <mj-include path="./sub/banner.mjml" />
     <mj-section>
       <mj-column width="600px">
-       <mj-spacer height="20px" />
+        <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="center">
-          Hello, username,
+          Hello, <%= target_name %>
         </mj-text>
-         <mj-spacer height="10px" />
+        <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="justify">
-          Thank you for signing up on TWAA.
-        </mj-text>
-        <mj-text mj-class="body_text" align="justify">
-          To finish setting up your TWAA account, we just need to make sure this email address is yours.
+          You have <%= unread_count %> unread messages on TWAA.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          To verify your email address, click on the link below then login into your account.
+          Check out what's happening on TWAA and share your insights and perspective on the topics and issues that interest you.
+        </mj-text>
+        <mj-text mj-class="body_text" align="justify">
+          Thank you for being a part of TWAA.
         </mj-text>
         <mj-spacer height="40px" />
         <mj-button href="#" mj-class="btn_twaagold" align="center">
-          Verify Your Email
+          View My Chat
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>
