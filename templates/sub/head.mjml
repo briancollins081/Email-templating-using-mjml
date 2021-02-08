@@ -5,7 +5,7 @@
     <mj-all font-family="Nunito" />
     <mj-class name="btn_twaagold" background-color="rgb(215, 161, 15)" color="#fff" border-radius="4px" font-size="18px" line-height="2.2" font-weight="800" />
     <mj-class name="text_twaagold" color="rgb(215, 161, 15)" />
-    <mj-class name="title_text" font-size="24px" font-weight="700" color="#686868" />
-    <mj-class name="body_text" font-size="18px" font-weight="300" color="#686868" />
+    <mj-class name="title_text" font-size="24px" font-weight="800" color="#0d0d0d" />
+    <mj-class name="body_text" font-size="18px" font-weight="400" color="#404040" line-height="30px" />
   </mj-attributes>
 </mj-head>
