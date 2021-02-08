@@ -3,9 +3,9 @@
   <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" />
   <mj-attributes>
     <mj-all font-family="Nunito" />
-    <mj-class name="btn_twaagold" background-color="rgb(215, 161, 15)" color="#fff" border-radius="4px" font-size="18px" />
+    <mj-class name="btn_twaagold" background-color="rgb(215, 161, 15)" color="#fff" border-radius="4px" font-size="18px" line-height="2.2" font-weight="800" />
     <mj-class name="text_twaagold" color="rgb(215, 161, 15)" />
-    <mj-class name="title_text" font-size="24px" font-weight="600" color="#686868" />
+    <mj-class name="title_text" font-size="24px" font-weight="700" color="#686868" />
     <mj-class name="body_text" font-size="18px" font-weight="300" color="#686868" />
   </mj-attributes>
 </mj-head>

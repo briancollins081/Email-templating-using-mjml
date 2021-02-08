@@ -1,7 +1,7 @@
-<mj-section background-url="./computer_desk.jpg" background-size="cover" background-repeat="no-repeat">
+<mj-section background-url="https://twaa.s3.fr-par.scw.cloud/posts/emailimgjpg" background-size="cover" background-repeat="no-repeat">
   <mj-column width="600px">
-    <mj-text height="200px">
-       
+    <mj-text height="180px">
+
     </mj-text>
   </mj-column>
 </mj-section>

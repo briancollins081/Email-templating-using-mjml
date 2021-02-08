@@ -1,22 +1,22 @@
 <mj-section>
-  <mj-column>
+  <mj-column border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
     <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="facebook" />
+      <mj-social-element name="facebook" href="google.com" />
     </mj-social>
   </mj-column>
-  <mj-column>
+  <mj-column border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
     <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="twitter" />
+      <mj-social-element name="twitter" href="google.com" />
     </mj-social>
   </mj-column>
-  <mj-column>
+  <mj-column border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
     <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="linkedin" />
+      <mj-social-element name="linkedin" href="google.com" />
     </mj-social>
   </mj-column>
-  <mj-column>
+  <mj-column border-left="2px solid #dddddd" border-right="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
     <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="youtube" />
+      <mj-social-element name="youtube" href="google.com" />
     </mj-social>
   </mj-column>
 </mj-section>

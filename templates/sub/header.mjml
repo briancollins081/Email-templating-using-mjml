@@ -1,10 +1,9 @@
 <mj-section>
-    <mj-column width="100px" padding="0">
-        <mj-image padding="0" src="./logo.jpg" alt="" height="60px" width="100px" />
-    </mj-column>
-    <mj-column width="500px">
-        
-    </mj-column>
-    
+  <mj-column width="100px" padding="0">
+    <mj-image padding="0" src="https://twaa.s3.fr-par.scw.cloud/twaalogoemail.png" alt="" height="60px" width="100px" />
+  </mj-column>
+  <mj-column width="500px">
+
+  </mj-column>
+
 </mj-section>
- 
