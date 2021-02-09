@@ -7,24 +7,24 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="justify">
+        <mj-text mj-class="title_text" align="left">
           Greetings,
           <%= target_name %>,
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           We hope you have explored Tstore, our marketplace that provides an avenue where you can share your products and services to a potential new market.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           <%= target_name %> who is part of your connections has just <b>uploaded a product</b> on Tstore. Go check it out, explore if it aligns with your interests, and maybe you can share something too?
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           While on TWAA, check out the TWAA videos and TWAA articles portal to access content according to your interest.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           TWAA has something for everyone, and if it's not there, create it and put it there!
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />

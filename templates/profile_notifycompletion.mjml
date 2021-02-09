@@ -7,28 +7,28 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="justify">
+        <mj-text mj-class="title_text" align="left">
           Greetings,
           <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Thank you for joining TWAA
 
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           We have noticed that you are yet to complete your profile.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Please complete your profile. This will enable you to qualify to be a mentor as well as have access to content that has been specifically chosen to meet your interests.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           TWAA, is a Professional Networking and Mentorship Platform for Women globally that provides the ultimate private setting for connecting and networking for personal, professional and community development.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Network with more women by sharing your products and or services on our tstore, checking out the TWAA books, creating a profile as a speaker, noting down your goals and even starting discussions on forums
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />

@@ -7,24 +7,24 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="justify">
+        <mj-text mj-class="title_text" align="left">
           Hello,
           <%= target_name %>,
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           <%= recipient_name %> has commented on your post. Check it out and keep interacting and sharing new content in a form of short posts, articles or videos. Or just have fun with the TWAAmojis… Sometimes they sum it up!
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Once you log in check out TWAA Books and upload your books if you are an author or if not upload your favourite books for others to find.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           And if you are a public speaker check out the Twaa Speakers and put up your profile for global stages to find you.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           We are thrilled to have you onboard as one of our powerful forces on our journey to propel women to greatness.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />

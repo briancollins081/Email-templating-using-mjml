@@ -7,23 +7,23 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="justify">
+        <mj-text mj-class="title_text" align="left">
           Greetings, <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           You have just added your <b>first book</b> on TWAA
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Thank you for your efforts in empowering fellow women through knowledge sharing
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Engage with us even more by selling products on the tstore, creating a profile as a speaker, noting down your goals and even starting discussions on forums
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           We are thrilled to have you onboard as one of our powerful forces on our journey to propel women to greatness.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Thank you for being a part of TWAA.
         </mj-text>
         <mj-spacer height="40px" />

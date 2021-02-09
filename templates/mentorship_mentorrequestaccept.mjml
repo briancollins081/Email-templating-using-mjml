@@ -7,23 +7,23 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="justify">
+        <mj-text mj-class="title_text" align="left">
           Good news
           <%= target_name %>,
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Your mentorship request has been accepted by
           <%= accepted_name %>
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Log on to the platform and set in motion a powerful connection steering endless possibilities.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           In order to access your new profile as a mentor, please logout and login again.
         </mj-text>
 
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />

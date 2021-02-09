@@ -7,25 +7,25 @@
     <mj-section>
       <mj-column width="600px">
         <mj-spacer height="20px" />
-        <mj-text mj-class="title_text" align="justify">
+        <mj-text mj-class="title_text" align="left">
           Greetings,
           <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           You have
           <%= notification_count %> new notifications on TWAA.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Login, engage, connect and network with amazing women across the globe.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           If you haven’t already, remember you can create a group and invite your friends and team mates and build a community of empowered and motivated women.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           TWAA groups have so many tools to help foster collaboration. You can create group events, group goals, group notes and have your own group webinars without leaving the platform.
         </mj-text>
-        <mj-text mj-class="body_text" align="justify">
+        <mj-text mj-class="body_text" align="left">
           Thank you for being a part of TWAA
         </mj-text>
         <mj-spacer height="10px" />
