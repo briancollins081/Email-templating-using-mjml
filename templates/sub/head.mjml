@@ -10,10 +10,30 @@
     <mj-class name="width_25" width="25% !impo" />
   </mj-attributes>
   <mj-style>
-    media all and (max-width: 480px) {
-      *[class~=hide_on_mobile] {
-        display: none !important;
-      }
+    .b-right {
+      border-right: 2px solid #dddddd !important;
+    }
+
+    .b-left {
+      border-left: 2px solid #dddddd !important;
+    }
+
+    .p-0 {
+      padding: 0 !important;
+    }
+
+    .m-0 {
+      margin: 0 !important;
+    }
+
+    .mx-0 {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .px-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   </mj-style>
 </mj-head>

@@ -1,10 +1,16 @@
-<mj-section css-class="hide_on_mobile">
-  <mj-column css-class="hide_on_mobile" border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
-    <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="facebook" href="google.com" />
+<mj-section>
+  <mj-column border="2px solid #dddddd" css-class="p-0">
+    <mj-social font-size="15px" icon-size="34px" mode="horizontal" css-class="p-0 m-0">
+      <mj-social-element name="facebook" href="google.com" padding="10px 54px" css-class="b-right" />
+
+      <mj-social-element name="twitter" href="google.com" padding="10px 54px" css-class="b-right" />
+
+      <mj-social-element name="linkedin" href="google.com" padding="10px 54px" css-class="b-right" />
+
+      <mj-social-element name="youtube" href="google.com" padding="10px 54px" />
     </mj-social>
   </mj-column>
-  <mj-column css-class="hide_on_mobile" border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
+  <!-- <mj-column css-class="hide_on_mobile" border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
     <mj-social font-size="15px" icon-size="34px" mode="horizontal">
       <mj-social-element name="twitter" href="google.com" />
     </mj-social>
@@ -18,5 +24,5 @@
     <mj-social font-size="15px" icon-size="34px" mode="horizontal">
       <mj-social-element name="youtube" href="google.com" />
     </mj-social>
-  </mj-column>
+  </mj-column> -->
 </mj-section>

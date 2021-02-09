@@ -14,10 +14,10 @@
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="justify">
           You have been invited to join the
-          <%= group_name %> group created by John Doe on TWAA.
+          <%= group_name %> group created by <%= group_admin_name %> on TWAA.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
-          To access the group login into your account, then go to "Groups" on Quick Links section and check under the "Joined Twoups" category to find the group.
+          To access the group click the link/button below.
         </mj-text>
         <mj-text mj-class="body_text" align="justify">
           While on TWAA you can create your own groups and invite your friends, your team and other communities to collaborate as you leverage on the numerous support tools that are available on the platform.
