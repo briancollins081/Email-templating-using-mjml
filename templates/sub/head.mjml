@@ -10,12 +10,12 @@
     <mj-class name="width_25" width="25% !impo" />
   </mj-attributes>
   <mj-style>
-    .b-right {
-      border-right: 2px solid #dddddd !important;
+    .b {
+      border-top: 1px solid #dddddd !important;
     }
 
-    .b-left {
-      border-left: 2px solid #dddddd !important;
+    .social-p {
+      padding: 16px 54px !important;
     }
 
     .p-0 {
@@ -26,14 +26,10 @@
       margin: 0 !important;
     }
 
-    .mx-0 {
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-    }
-
-    .px-0 {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
+    @media only screen and (max-width:480px) {
+      .p-0 {
+        padding: 0px !important;
+      }
     }
   </mj-style>
 </mj-head>
