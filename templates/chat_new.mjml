@@ -19,8 +19,10 @@
         </mj-text>
 
         <mj-text mj-class="body_text" css-class="blockquote" align="left">
-          <b>&ldquo;</b>
-          <%= current_message %> lorem ipsum dor it <b>&rdquo;</b>
+          <b css-class="blockquote_title">
+            <%= recipient_name %> :</b><br />
+          <em><b>&ldquo;</b>
+            <%= current_message %> <b>&rdquo;</b></em>
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           Kindly login into the platform and interact with your network.

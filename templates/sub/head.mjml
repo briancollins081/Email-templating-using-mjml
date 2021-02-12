@@ -29,10 +29,16 @@
     .blockquote {
       padding-left: 15% !important;
       padding-right: 15% !important;
+      padding-top: 40px !important;
+      padding-bottom: 40px !important;
       width: 85% !important;
       background-color: #e6e6e6 !important;
       font-weight: 500 !important;
       border-radius: 5px !important;
+    }
+
+    .blockquote_title {
+      font-weight: 700 !important;
     }
 
     @media only screen and (max-width:480px) {
