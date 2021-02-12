@@ -8,11 +8,13 @@
       <mj-column width="600px">
         <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="left">
-          Greetings, <%= target_name %>
+          Greetings,
+          <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
-          You have just added your <b>first book</b> on TWAA
+          You have just added <b>a new book</b> on TWAA titled <b>
+            <%= book_title %></b>.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           Thank you for your efforts in empowering fellow women through knowledge sharing
@@ -27,7 +29,7 @@
           Thank you for being a part of TWAA.
         </mj-text>
         <mj-spacer height="40px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           Login to TWAA
         </mj-button>
         <mj-spacer height="20px" />

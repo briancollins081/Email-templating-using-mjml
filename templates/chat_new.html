@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <title> MJML Components Test </title>
+  <title> TWAA Emails </title>
   <!--[if !mso]><!-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
@@ -111,9 +111,23 @@
       margin: 0 !important;
     }
 
+    .blockquote {
+      padding-left: 15% !important;
+      padding-right: 15% !important;
+      width: 85% !important;
+      background-color: #e6e6e6 !important;
+      font-weight: 500 !important;
+      border-radius: 5px !important;
+    }
+
     @media only screen and (max-width:480px) {
       .p-0 {
         padding: 0px !important;
+      }
+
+      .blockquote {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
       }
     }
   </style>
@@ -225,7 +239,12 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Nunito;font-size:18px;font-weight:400;line-height:30px;text-align:left;color:#404040;">You have received a message from <%= recipient_name %></div>
+                        <div style="font-family:Nunito;font-size:18px;font-weight:400;line-height:30px;text-align:left;color:#404040;">You have received a message from <b> <%= recipient_name %></b></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" class="blockquote" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Nunito;font-size:18px;font-weight:400;line-height:30px;text-align:left;color:#404040;"><b>&ldquo;</b> <%= current_message %> lorem ipsum dor it <b>&rdquo;</b></div>
                       </td>
                     </tr>
                     <tr>
@@ -236,11 +255,6 @@
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Nunito;font-size:18px;font-weight:400;line-height:30px;text-align:left;color:#404040;">You can create a group and invite your friends and team mates and build a community of empowered and motivated women.</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Nunito;font-size:18px;font-weight:400;line-height:30px;text-align:left;color:#404040;">TWAA groups have so many tools to help foster collaboration. You can create group events, group goals, group notes and have your own group webinars without leaving the platform.</div>
                       </td>
                     </tr>
                     <tr>
@@ -258,7 +272,7 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                           <tr>
                             <td align="center" bgcolor="rgb(215, 161, 15)" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:rgb(215, 161, 15);" valign="middle">
-                              <a href="#" style="display:inline-block;background:rgb(215, 161, 15);color:#ffffff;font-family:Nunito;font-size:18px;font-weight:600;line-height:2;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> View My Chat </a>
+                              <a href="<%= token %>" style="display:inline-block;background:rgb(215, 161, 15);color:#ffffff;font-family:Nunito;font-size:18px;font-weight:600;line-height:2;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> View Messages </a>
                             </td>
                           </tr>
                         </table>
@@ -297,7 +311,7 @@
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#3b5998;border-radius:3px;width:17px;">
                                 <tr>
                                   <td style="font-size:0;height:17px;vertical-align:middle;width:17px;">
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u=google.com" target="_blank">
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=link" target="_blank">
                                       <img height="17" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:3px;display:block;" width="17" />
                                     </a>
                                   </td>
@@ -310,11 +324,11 @@
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tr class="social-p">
                             <td style="padding:8px;vertical-align:middle;">
-                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#55acee;border-radius:3px;width:17px;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#3f729b;border-radius:3px;width:17px;">
                                 <tr>
                                   <td style="font-size:0;height:17px;vertical-align:middle;width:17px;">
-                                    <a href="https://twitter.com/intent/tweet?url=google.com" target="_blank">
-                                      <img height="17" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png" style="border-radius:3px;display:block;" width="17" />
+                                    <a href="link" target="_blank">
+                                      <img height="17" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius:3px;display:block;" width="17" />
                                     </a>
                                   </td>
                                 </tr>
@@ -329,7 +343,7 @@
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0077b5;border-radius:3px;width:17px;">
                                 <tr>
                                   <td style="font-size:0;height:17px;vertical-align:middle;width:17px;">
-                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=google.com&title=&summary=&source=" target="_blank">
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=link&title=&summary=&source=" target="_blank">
                                       <img height="17" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:3px;display:block;" width="17" />
                                     </a>
                                   </td>
@@ -342,11 +356,11 @@
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tr class="social-p">
                             <td style="padding:8px;vertical-align:middle;">
-                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#EB3323;border-radius:3px;width:17px;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#55acee;border-radius:3px;width:17px;">
                                 <tr>
                                   <td style="font-size:0;height:17px;vertical-align:middle;width:17px;">
-                                    <a href="google.com" target="_blank">
-                                      <img height="17" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius:3px;display:block;" width="17" />
+                                    <a href="https://twitter.com/intent/tweet?url=link" target="_blank">
+                                      <img height="17" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png" style="border-radius:3px;display:block;" width="17" />
                                     </a>
                                   </td>
                                 </tr>
@@ -360,23 +374,7 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><![endif]-->
-              <!-- <mj-column css-class="hide_on_mobile" border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
-    <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="twitter" href="google.com" />
-    </mj-social>
-  </mj-column>
-  <mj-column css-class="hide_on_mobile" border-left="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
-    <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="linkedin" href="google.com" />
-    </mj-social>
-  </mj-column>
-  <mj-column css-class="hide_on_mobile" border-left="2px solid #dddddd" border-right="2px solid #dddddd" border-top="2px solid #dddddd" border-bottom="2px solid #dddddd">
-    <mj-social font-size="15px" icon-size="34px" mode="horizontal">
-      <mj-social-element name="youtube" href="google.com" />
-    </mj-social>
-  </mj-column> -->
-              <!--[if mso | IE]></tr></table><![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
