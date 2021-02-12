@@ -22,7 +22,7 @@
           <b css-class="blockquote_title">
             <%= recipient_name %> :</b><br />
           <em><b>&ldquo;</b>
-            <%= current_message %> <b>&rdquo;</b></em>
+            <%- current_message %> <b>&rdquo;</b></em>
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           Kindly login into the platform and interact with your network.
