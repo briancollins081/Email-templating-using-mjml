@@ -21,9 +21,9 @@
         <mj-text mj-class="body_text" align="left">
           TWAA, is a Professional Networking and Mentorship Platform for Women globally that provides the ultimate private setting for connecting and networking for personal, professional and community development.
         </mj-text>
-    
+
         <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           View Discussion
         </mj-button>
         <mj-spacer height="20px" />

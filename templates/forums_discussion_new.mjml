@@ -13,23 +13,25 @@
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
-          Thank you for your application to be become a mentor on TWAA
+          <b>
+            <%= discussion_creator %></b> has opened a new discussion titled
+          <b>
+            <%= discussion_title %></b> in one of your forums(
+          <b>
+            <%= forum_title %></b>) on TWAA.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
-          We are reviewing your application and we shall inform you once the process is complete which might take up to several days
+          Follow the link below to participate in this discussion, feel free to share your views and observations.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
-          Please be patient with us and ensure that your profile is complete up to 95%. If not this is a good time to update it. A complete profile will promote engagement and interaction for you on the platform.
+          We are thrilled to have you onboard as one of our powerful forces on our journey to propel women to greatness.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
-          If you are a public speaker be sure to upload your profile on TWAA speakers and if you are an author upload your book on TWAA books.
+          Keep sharing.
         </mj-text>
-        <mj-text mj-class="body_text" align="left">
-          Warm Regards, The TWAA team
-        </mj-text>
-        <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
-          Login to TWAA
+        <mj-spacer height="40px" />
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
+          View Discussion
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>

@@ -14,8 +14,8 @@
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
           A new event titled
-          <%= event_title %> has been posted in the
-          <%= event_target_group %> group.
+          <b><%= event_title %></b> has been posted in the
+          <b><%= event_target_group %></b> group.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           Login and connect with other empowered women.

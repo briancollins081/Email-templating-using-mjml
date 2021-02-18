@@ -8,31 +8,26 @@
       <mj-column width="600px">
         <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="left">
-          Greetings,
+          Greetings
           <%= target_name %>
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
-          You have been invited to join the
           <b>
-            <%= group_name %></b> group created by <b>
-            <%= group_admin_name %></b> on TWAA.
+            <%= mentee_name %></b> has requested for a mentorship connection.
+
         </mj-text>
         <mj-text mj-class="body_text" align="left">
-          To join and access the group click the link/button below.
+          To accept the connection log in to your TWAA account,
+          review your mentee and embark on a journey to increasing the horizons of your legacy!
         </mj-text>
+
         <mj-text mj-class="body_text" align="left">
-          Remember also, while on TWAA you can create your own groups and invite your friends, your team and other communities to collaborate as you leverage on the numerous support tools that are available on the platform.
-        </mj-text>
-        <mj-text mj-class="body_text" align="left">
-          TWAA is a Professional Networking and Mentorship Platform for Women globally that provides the ultimate private setting for connecting and networking for personal, professional and community development.
-        </mj-text>
-        <mj-text mj-class="body_text" align="left">
-          Keep Sharing!
+          Warm Regards, The TWAA team.
         </mj-text>
         <mj-spacer height="10px" />
         <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
-          Join Group
+          View Connections
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>
