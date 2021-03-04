@@ -1,5 +1,16 @@
-# MJML 4
+# About Project
 
+This is my personal reference for how to generate a responsive MJML email template with standardised html for most mail clients.
+
+There might be better ways out there to do the same thing, but I use this approach.
+
+Incase you're using nodemailer directly with your own custom defined templates and manual email dispatch for small scale apps, this can be a good approach
+
+Just Improvise and make it look good!
+
+# MJML Official Docs
+
+## MJML 4
 If you're looking for MJML 3.3.X check [this branch](https://github.com/mjmlio/mjml/tree/3.3.x)
 
 <p align="center">
@@ -28,12 +39,12 @@ If you're looking for MJML 3.3.X check [this branch](https://github.com/mjmlio/m
 </p>
 
 ---
-# Translated documentation
+## Translated documentation
 
 | Language | Link for documentation |
 | 日本語 | [日本語ドキュメント](https://github.com/mjmlio/mjml/blob/master/readme-ja.md) |
 
-# Introduction
+## Introduction
 
 `MJML` is a markup language created by [Mailjet](https://www.mailjet.com/) and designed to reduce the pain of coding a responsive email. Its semantic syntax makes the language easy and straightforward while its rich standard components library shortens your development time and lightens your email codebase. MJML’s open-source engine takes care of translating the `MJML` you wrote into responsive HTML.
 
@@ -44,7 +55,7 @@ If you're looking for MJML 3.3.X check [this branch](https://github.com/mjmlio/m
 </p>
 
 
-# Installation
+## Installation
 
 You can install `MJML` with `NPM` to use it with NodeJS or the Command Line Interface. If you're not sure what those are, head over to <a href="#usage">Usage</a> for other ways to use MJML.
 
@@ -52,7 +63,7 @@ You can install `MJML` with `NPM` to use it with NodeJS or the Command Line Inte
 npm install mjml
 ```
 
-# Development
+## Development
 
 To work on MJML, make changes and create merge requests, download and install [yarn](https://yarnpkg.com/lang/en/docs/install/) for easy development.
 
@@ -64,9 +75,9 @@ yarn build
 
 You can also run `yarn build:watch` to rebuild the package as you code.
 
-# Usage
+## Usage
 
-## Online
+### Online
 
 Don't want to install anything? Use the free online editor!
 
@@ -75,7 +86,7 @@ Don't want to install anything? Use the free online editor!
 </p>
 <br>
 
-## Applications and plugins
+### Applications and plugins
 
 MJML comes with an ecosystem of tools and plugins, check out:
 - The [MJML App](https://mjmlio.github.io/mjml-app/) (MJML is included)
@@ -85,7 +96,7 @@ MJML comes with an ecosystem of tools and plugins, check out:
 
 For more tools, check the [Community](https://mjml.io/community) page.
 
-## Command line interface
+### Command line interface
 
 > Compiles the file and outputs the HTML generated in `output.html`
 
@@ -106,7 +117,7 @@ argument | description | default value
 
 See [mjml-cli documentation](https://github.com/mjmlio/mjml/blob/master/packages/mjml-cli/README.md) for more information about config options.
 
-## Inside Node.js
+### Inside Node.js
 
 ```javascript
 import mjml2html from 'mjml'
@@ -152,7 +163,7 @@ minifyOptions | Options for html minifier, see [mjml-cli documentation](https://
 mjmlConfigPath | string | The path or directory of the `.mjmlconfig` file (for custom components use) | `process.cwd()`
 useMjmlConfigOptions | Allows to use the `config` attribute from `.mjmlconfig` file | false
 
-## Client-side (in browser)
+### Client-side (in browser)
 
 ```javascript
 var mjml2html = require('mjml-browser')
@@ -181,15 +192,15 @@ var htmlOutput = mjml2html(`
 console.log(htmlOutput)
 ```
 
-## API
+### API
 
 A free-to-use MJML API is available to make it easy to integrate MJML in your application. Head over [here](https://mjml.io/api) to learn more about the API.
 
-# MJML Slack
+## MJML Slack
 
 MJML wouldn't be as cool without its amazing community. Head over the [Community Slack](https://slack.mjml.io/) to meet fellow MJML'ers.
 
-# Contributors
+## Contributors
 
 - [Maxime](https://github.com/iRyusa)
 - [Nicolas](https://github.com/ngarnier)
