@@ -2,7 +2,7 @@
   <mj-include path="./sub/head.mjml" />
   <mj-body>
     <mj-include path="./sub/header.mjml" />
-    <mj-spacer height="20px" />
+    <mj-spacer height="5px" />
     <mj-include path="./sub/banner.mjml" />
     <mj-section>
       <mj-column width="600px">
@@ -21,11 +21,11 @@
         <mj-text mj-class="body_text" align="left">
           To verify your email address, click on the link below then login into your account.
         </mj-text>
-        <mj-spacer height="40px" />
+        <mj-spacer height="10px" />
         <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           Verify Your Email
         </mj-button>
-        <mj-spacer height="20px" />
+        <!-- <mj-spacer height="10px" /> -->
       </mj-column>
     </mj-section>
     <mj-include path="./sub/footer.mjml" />

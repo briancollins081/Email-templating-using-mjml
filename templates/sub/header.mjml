@@ -1,9 +1,9 @@
-<mj-section>
+<mj-section mj-class="text_left" padding-left="20px" align="left !important">
   <mj-column width="100px" padding="0">
-    <mj-image align="left" padding="0" src="https://twaa.s3.fr-par.scw.cloud/twaalogoemail.png" alt="" height="60px" width="100px" />
+    <mj-image align="left" padding="0" src="https://previews.dropbox.com/p/thumb/ABPAuUf3yHdNhjBkgbS0KSDs1KCY7POkRijUi5ftUIpRSt1Ly4btRaD25kHDkO0EFfUDoMeZpgndbRbTPD0S057hQQzuZc620-5k4m7TlyO6US_bhzBtMd6Zc7_pT2JMtKgq2Fv0LU-ae19TZYBV4x6qFMqdNoYZ8rxNdHB8OxIWQmtIRNqgHSetxzLBjAjLwew5SG4qIMrTR4Q9oaRAol8Hd2un0cQSe6SSlzucQkRNhxfvYStttbNd5HMixkCVEh7qeIxINTbjVBgj5zF1jhWfl97t5wRcqcxUS-GwQ_tHcPbNQzCUDiMbmXMmaP1j2bxr1fGAdtjw8J485jxIoNW_e0uNGuzl4WIoZjjkbuZ_UwTUi-_KIT2TzI7P3XLCDy8/p.png" alt="" height="45px" width="120px" mj-class="object_fit" />
   </mj-column>
-  <mj-column width="500px">
+  <!-- <mj-column width="500px">
 
-  </mj-column>
+  </mj-column> -->
 
 </mj-section>
