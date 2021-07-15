@@ -28,7 +28,7 @@
           Keep Sharing!
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           Login to TWAA
         </mj-button>
         <mj-spacer height="20px" />

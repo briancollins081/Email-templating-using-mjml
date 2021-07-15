@@ -16,7 +16,8 @@
           We hope you have explored Tstore, our marketplace that provides an avenue where you can share your products and services to a potential new market.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
-          <%= target_name %> who is part of your connections has just <b>added a service</b> on Tstore. Go check it out, explore if it aligns with your interests, and maybe you can share something too?
+          <b>
+            <%= friends_name %></b> who is part of your connections has just <b>added a service</b> on Tstore. Go check it out, explore if it aligns with your interests, and maybe you can share something too?
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           While on TWAA, check out the TWAA videos and TWAA articles portal to access content according to your interest.
@@ -28,7 +29,7 @@
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           View Service
         </mj-button>
         <mj-spacer height="20px" />

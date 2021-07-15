@@ -201,7 +201,11 @@ export default async () => {
             actualPath: i.file,
           })
           compiled = {
-            errors: validate(mjmlJson, { dependencies, components, initializeType }),
+            errors: validate(mjmlJson, {
+              dependencies,
+              components,
+              initializeType,
+            }),
           }
           break
 

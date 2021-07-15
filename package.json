@@ -9,7 +9,7 @@
     "lint:fix": "eslint . --fix",
     "postinstall": "lerna bootstrap",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
-    "custom-build": "mjml -w templates/*.mjml -o templates"
+    "custom-build": "npx mjml -w templates/*.mjml -o templates"
   },
   "workspaces": [
     "packages/*"

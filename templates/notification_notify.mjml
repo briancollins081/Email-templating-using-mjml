@@ -14,7 +14,9 @@
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
           You have
-          <%= notification_count %> new notifications on TWAA.
+          <b>
+            <%= new_notification_count %> new</b> notifications and <b>
+            <%= read_notification_count %> read</b> notifications on TWAA.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           Login, engage, connect and network with amazing women across the globe.
@@ -29,7 +31,7 @@
           Thank you for being a part of TWAA
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           View Notifications
         </mj-button>
         <mj-spacer height="20px" />

@@ -13,7 +13,8 @@
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
-          <%= recipient_name %> has commented on your post. Check it out and keep interacting and sharing new content in a form of short posts, articles or videos. Or just have fun with the TWAAmojis… Sometimes they sum it up!
+          <b>
+            <%= recipient_name %></b> has commented on your post. Check it out and keep interacting and sharing new content in a form of short posts, articles or videos. Or just have fun with the TWAAmojis… Sometimes they sum it up!
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           Once you log in check out TWAA Books and upload your books if you are an author or if not upload your favourite books for others to find.
@@ -28,7 +29,7 @@
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
           View Post
         </mj-button>
         <mj-spacer height="20px" />

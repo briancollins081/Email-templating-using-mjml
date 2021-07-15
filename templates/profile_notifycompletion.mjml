@@ -32,8 +32,8 @@
           Warm Regards, The TWAA team
         </mj-text>
         <mj-spacer height="10px" />
-        <mj-button href="#" mj-class="btn_twaagold" align="center">
-          View Notifications
+        <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
+          View Profile
         </mj-button>
         <mj-spacer height="20px" />
       </mj-column>
