@@ -1,6 +1,6 @@
 <mj-section>
   <mj-column css-class="p-0 b">
-    <mj-social font-size="15px" icon-size="17px" mode="horizontal" padding-top="0" css-class="m-0">
+    <mj-social font-size="15px" icon-size="17px" mode="horizontal" padding-top="10" css-class="m-0">
       <mj-social-element href="link" name="facebook" padding="8px" css-class="social-p" />
 
       <mj-social-element href="link" name="instagram" padding="8px" css-class="social-p" />

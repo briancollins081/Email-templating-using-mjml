@@ -7,7 +7,7 @@
     <mj-class name="btn_twaagold" background-color="#d43790" color="#fff" border-radius="4px" font-size="18px" line-height="2" font-weight="600" />
     <mj-class name="text_twaagold" color="#d43790" />
     <mj-class name="title_text" font-family="Corben" font-size="24px" font-weight="800" color="#0d0d0d" />
-    <mj-class name="body_text" font-size="18px" font-weight="400" color="#404040" line-height="30px" />
+    <mj-class name="body_text" font-size="1rem" font-weight="400" color="#404040" line-height="normal" />
     <mj-class name="width_25" width="25% !important" />
     <mj-class name="object_fit" object-fit="cover !important" object-position="center !important" />
     <mj-class name="text_left" text-align="left !important" />
