@@ -8,28 +8,21 @@
       <mj-column width="600px">
         <mj-spacer height="20px" />
         <mj-text mj-class="title_text" align="left">
-          Hello,
-          <%= target_name %>,
+          Hello, <%= target_name %>,
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text mj-class="body_text" align="left">
-          Welcome to BLOOM.
+          You have requested a login link to your account.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
-          To finish setting up your BLOOM account, we just need to make sure this email address is belongs to you.
-        </mj-text>
-        <mj-text mj-class="body_text" align="left">
-          Verify your email address by click on the button below then login into your account.
-        </mj-text>
-        <mj-text mj-class="body_text" align="left">
-          If the button does not work, you can copy and paste the following link in to your browser search bar and press enter.
+          Click on the button below to follow the link or copy the link and open it in your browser.
         </mj-text>
         <mj-text mj-class="body_text" align="left">
           <%= token %>
         </mj-text>
         <mj-spacer height="10px" />
         <mj-button href="<%= token %>" mj-class="btn_twaagold" align="center">
-          Verify Your Email
+          Login To BLOOM
         </mj-button>
         <!-- <mj-spacer height="10px" /> -->
       </mj-column>
